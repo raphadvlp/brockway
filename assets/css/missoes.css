@@ -1,0 +1,31 @@
+#missoes {
+  width: 100%;
+  height: 100vh;
+  background-color: #00222b;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.missoes-img {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.missoes-text {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.missoes-text h1 {
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
