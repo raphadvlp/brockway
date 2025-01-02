@@ -1,6 +1,21 @@
+.fa-bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
 .header {
   /* background-color: rgb(233, 233, 233); */
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-color: rgba(0, 0, 0, 0.822);
 }
 
 header {
@@ -9,6 +24,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.menuMobile {
+  display: none;
 }
 
 .logo {
@@ -41,8 +60,7 @@ header {
 .menu nav ul li a {
   text-decoration: none;
   padding: 10px 20px;
-  color: #000000;
-  /* background-color: blue; */
+  color: #fff;
 }
 
 .menu nav ul li a:hover {
@@ -51,16 +69,17 @@ header {
 }
 
 .btn a {
-  background-color: #004550;
+  background-color: #fff;
   padding: 15px 40px;
   border-radius: 10px;
-  color: #ffffff;
+  color: #004550;
   text-decoration: none;
 }
 
 .btn a:hover {
   background-color: #017283;
   transition: all 0.5s;
+  color: #fff;
 }
 
 .redes {
@@ -73,7 +92,50 @@ header {
   text-decoration: none;
 }
 
-.redes a img {
+/* .redes a img {
   width: 25px;
   height: 25px;
+} */
+
+.fa-brands {
+  color: #fff;
+}
+
+.fa-whatsapp.hover-icon:hover {
+  color: #25d366;
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.fa-linkedin-in.hover-icon:hover {
+  color: #0a66c2;
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.fa-instagram.hover-icon:hover {
+  /* color: #e1306c; */
+  background: linear-gradient(45deg, #833ab4, #e1306c, #f77737);
+  -webkit-background-clip: text; /* Define o texto como recorte do fundo */
+  -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+/* DEPOIS DA AÇÃO DO SCROLL */
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 99999;
+  background-color: #0000008c;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para realce */
+  transition: 0.5s all;
+}
+
+.fixed-color-text {
+  color: #fff;
 }
