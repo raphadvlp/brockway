@@ -5,7 +5,7 @@
   --foreground: #ebf4ff;
   --thirdground: #ffc600;
   --primary: #131923;
-  --secondary: #0055b8;
+  --secondary: #027035;
   --secundary-foreground: #ffffff;
   --hero-background: #f3f3f3;
 }
@@ -20,6 +20,7 @@
 html {
   font-family: "Lato", sans-serif;
   font-size: 62.5%; /* faz com que 1rem = 10px */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -54,4 +55,17 @@ body {
 .button:hover,
 .button2:hover {
   opacity: 0.8;
+}
+
+.arrow-top {
+  display: none;
+  position: sticky;
+  bottom: 70px;
+  right: 40px;
+  z-index: 99999;
+}
+
+.arrow-top a {
+  text-decoration: none;
+  color: #000;
 }

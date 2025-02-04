@@ -21,3 +21,9 @@
   padding: 3rem 2rem;
   margin: auto;
 }
+
+@media (width < 600px) {
+  .testimonials .icons img {
+    max-width: 5rem;
+  }
+}

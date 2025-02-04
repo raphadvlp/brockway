@@ -1,3 +1,15 @@
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 header {
   position: sticky; /* Torna "fixed" quando rola para baixo */
   inset: 0 0 auto 0;
@@ -13,6 +25,11 @@ header .banner {
   padding: 1rem 2rem;
   color: var(--primary);
   text-decoration: none;
+  font-weight: bold;
+}
+
+header .banner span {
+  animation: blink 1s infinite;
 }
 
 header .banner:hover {
@@ -110,6 +127,20 @@ header nav a.bold {
   font-weight: bold;
 }
 
+header nav .redes {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+header nav .redes img {
+  width: 3rem;
+  height: 3rem;
+}
+
 @media (min-width: 900px) {
   header .menu-opener {
     display: none;
@@ -123,6 +154,9 @@ header nav a.bold {
 
   header nav {
     max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   header nav ul {

@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DogDev</title>
+    <title>Brockway</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/base.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/hero.css" />
@@ -18,12 +19,12 @@
   <body>
     <header>
       <a href="" class="banner"
-        >Econimize! Ganhe 61% OFF no seu primeiro pedido e uma tigela agrátis</a
+        ><span>Econimize! Ganhe 30% OFF no seu primeiro mês!</span></a
       >
       <div class="container">
         <div class="area">
           <div class="logo">
-            <a href="">
+            <a href="/">
               <img src="assets/images/logo.png" alt="Logo do site" />
             </a>
           </div>
@@ -41,25 +42,31 @@
         </div>
         <nav>
           <ul>
-            <li><a href="">Produtos</a></li>
-            <li><a href="">Acessórios</a></li>
-            <li><a href="">Depoimentos</a></li>
-            <li><a href="">Minha Conta</a></li>
-            <li><a href="" class="bold">Comece agora</a></li>
+            <li><a href="/">Início</a></li>
+            <li><a href="#topics">Serviços</a></li>
+            <li><a href="#testimonials">Seguimento</a></li>
+            <li><a href="#faq">Sobre</a></li>
+            <li><a href="#footer" class="bold">Contato</a></li>
           </ul>
+          <div class="redes">
+            <a href=""><img src="assets/images/whatsapp-brands-solid.svg" alt=""></a>
+            <a href=""><img src="assets/images/instagram-brands-solid.svg" alt=""></a>
+            <a href=""><img src="assets/images/linkedin-in-brands-solid.svg" alt=""></a>
+            <a href=""><img style="opacity: 0.2;" src="assets/images/tiktok-brands-solid.svg" alt=""></a>
+          </div>
         </nav>
       </div>
     </header>
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="container">
         <div class="box">
-          <h1>COMIDA DE VERDADE FEITA <span>PARA SEU DOG!</span></h1>
-          <h2>Pedidos personalizados - Pronto para comer - Entrega grátis</h2>
-          <a href="" class="button">Crie seu plano</a>
+          <h1>CONSULTORIA DE VERDADE <span>PARA SEU NEGOCIO!</span></h1>
+          <h2>Consultoria ERP TOTVS e Business Intelligence. Soluções em sistemas e dados da gestão à tomada de decisão.</h2>
+          <a href="" class="button">Entre em Contato</a>
         </div>
       </div>
     </section>
-    <section class="seen">
+    <section class="seen" id="seen">
       <div class="container">
         <div><img src="assets/images/cbs.svg" alt="" /></div>
         <div><img src="assets/images/sharktank.svg" alt="" /></div>
@@ -67,57 +74,56 @@
         <div><img src="assets/images/fox.svg" alt="" /></div>
       </div>
     </section>
-    <section class="topics container">
+    <section class="topics container" id="topics">
       <div class="topic">
         <div class="left">
-          <img src="assets/images/t1.jpg" alt="" />
+          <img src="assets/images/protheus.png" alt="" />
         </div>
         <div class="right">
-          <p>Por que pais de pet escolhem DogDev:</p>
           <ul>
-            <li>Comem felizes</li>
-            <li>Peso equilibrado</li>
-            <li>Melhor 💩</li>
-            <li>Menos idas ao veterinario</li>
-            <li>Mais energia</li>
+            <li>Implantação e Sustentação de Módulos Backoffice e RH</li>
+            <li>Desenvolvimento ADVPL</li>
+            <li>Infraestrutura (Gestão e Performance de Ambientes On-Premise e Cloud)</li>
           </ul>
+          <!-- <p>Protheus:</p> -->
           <div>
-            <a href=""class="button">Começe agora</a></a>
+            <a href=""class="button">Entender como funciona</a>
           </div>
         </div>
       </div>
       <div class="topic reverse">
         <div class="left">
-          <img src="assets/images/t2.jpg" alt="" />
+          <img src="assets/images/rm.png" alt="" />
         </div>
         <div class="right">
           <ul>
-            <li>Receitas feitas por vets com ingredientes reais efitos na <span>cozinha dos humanos</span></li>
+            <li>Implantação e Sustentação de Módulos RH (Labore, Vitae, Chronus e SSO)</li>
+            <li>Infraestrutura (Gestão e Performance de Ambientes On-Premise e Cloud)</li>
           </ul>
-          <p>Nós oferecemos comida para dog excepcionais, com base na ciência, para das soluções nutricionais de qualidade incontestável.</p>
+          <!-- <p>RM</p> -->
           <div>
-            <a href=""class="button2">Começe agora</a></a>
+            <a href=""class="button2">Entender como funciona</a>
           </div>
         </div>
       </div>
       <div class="topic">
         <div class="left">
-          <img src="assets/images/t3.jpg" alt="" />
+          <img src="assets/images/bi.png" alt="" />
         </div>
         <div class="right">
           <ul>
-            <li>Personalizado.</li>
-            <li>Preparado.</li>
-            <li>Emtregue</li>
+            <li>Arquitetura e Engenharia de Dados (Requisitos, Modelagem,Desenvolvimento de Pipelines)</li>
+              <li>
+                Visualização e Análise de Dados com Microsoft Power BI (DAX e Dashboards)</li>
           </ul>
-          <p>Escolha as caracteríscias únicas do seu dog e nós vamos formular o plano alimentar perfeito e nutritivo, entregue na sua porta.</p>
+          <!-- <p>Business Intelligence</p> -->
           <div>
-            <a href=""class="button2">Entender como funciona</a></a>
+            <a href=""class="button2">Entender como funciona</a>
           </div>
         </div>
-      </div>
+      
     </section>
-    <section class="products container">
+    <!-- <section class="products container">
       <h2>Nossos <span>produtos</span></h2>
       <p>Você pode comprar várias receitas, pretiscos e acessórios. Perfeito para testar o gosto e oferecer ao seu dog uma variedade de sabores, Cuida, pai de pet!</p>
       <div class="grid">
@@ -154,64 +160,91 @@
           </div>
         </a>
       </div>
-    </section>
-    <section class="testimonials">
+    </section> -->
+    <section class="testimonials" id="testimonials">
       <div class="container">
         <div class="quote"></div>
         <div class="icons"></div>
       </div>
     </section>
-    <section class="faq container">
-      <h2>Ganhe tempo vendo <span>aqui</span></h2>
+    <section class="faq container" id="faq">
+      <h2>A <span>Brockway</span></h2>
       <div class="accordion">
         <div class="item">
           <div class="title">
-            <p>Pra quê comprar no DogDev?</p>
+            <p>Sobre a Empresa</p>
             <img src="assets/images/arrow.svg" alt="">
           </div>
           <div class="body">
-            <p>Na DogDev, não fazemos comida de cachorro. Fazemos comida para cachorros. Nossas refeições são feitas com ingredientes alimentares integrais de alta qualidade, de qualidade humana, que são mais biodisponíveis do que recheios e outros ingredientes de baixa qualidade. Preparamos e cozinhamos nossas refeições nas cozinhas residenciais , da mesma forma que a comida humana é feita. Cada refeição é recheada quete para garantir a seurança e congelada rapidamente para manter o fescor</p>
+            <p>Uma introdução à empresa, incluindo sua história, missão e visão.</p>
           </div>
         </div>
         <div class="item">
           <div class="title">
-            <p>Como funciona o plano de assinatura?</p>
+            <p>Nossos Valores</p>
             <img src="assets/images/arrow.svg" alt="">
           </div>
           <div class="body">
-            <p>Você nos conta sobre o seu dog e nós criaremos um plano aliemntar que faça sentido para vocÇes dois. Enviamos a quandidade certa de comida á sua porta para que você nunca precise se preocupar em acabar. Cada refeição é repartida perfeitamente para que seu filhote sempre receba a quantidade certa de nutrientes.</p>
+            <p>Destaque os valores fundamentais da Brockway, mostrando o compromisso com a excelência, integridade, inovação, etc.</p>
           </div>
         </div>
         <div class="item">
           <div class="title">
-            <p>Posso pedir uma amostra para testar?</p>
+            <p>Equipe</p>
             <img src="assets/images/arrow.svg" alt="">
           </div>
           <div class="body">
-            <p>Não oferecemos amostras no momento, no entando, oferecemos uma garantia de devolução de 100% do dinheiro em seu primeiro pedid se você e seu dog não estiverem completamente satisfeitos com sua experiência. Você também pode começar com um PLano Top, que é equivalente a 25% ed um Plano Premium.</p>
+            <p>Apresente a equipe principal da Brockway, destacando suas habilidades, experiência e papel dentro da empresa.</p>
           </div>
         </div>
         <div class="item">
           <div class="title">
-            <p>Como faço a transição para DogDev?</p>
+            <p>Nossa Abordagem</p>
             <img src="assets/images/arrow.svg" alt="">
           </div>
           <div class="body">
-            <p>Comce misturando DogDev com a comida atual do eu dog. DogDev deve representar cerca de 25% da refeição. Aumente lentamente essa quantidade atpe que seu cão coma 100% DogDev. Se o seu cão tem estômago sensível ou apresenta pequenos problemas de barriga, aliemnte uma quantidade menor e aumente lentamente até que ele se adapte à nova comida.</p>
+            <p>Explique como a Brockway aborda seus projetos e trabalha com os clientes para alcançar soluções ecazes.</p>
           </div>
         </div>
         <div class="item">
           <div class="title">
-            <p>Qual a diferença do plano Top e do Premium?</p>
+            <p>Por que Escolher a Brockway</p>
             <img src="assets/images/arrow.svg" alt="">
           </div>
           <div class="body">
-            <p>Se você deseja alimentar seu dog com uma dieta 100% preparada na hora, completa e balanceada, então nosso PLano Premium é ideal para você. Se você quiser adicionar um pouco de comida recém-cozida à dieta atual do seu filhote, então nosso Plano Top é uma ótima escolha porque pode ser misturado com a comida atual ou servido com uma refeilão ocasional para nutrição extra.</p>
+            <p>Destaque os diferenciais da empresa, como experiência no mercado, expertise técnica, atendimento ao cliente, etc.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="title">
+            <p>Compromisso com a Qualidade</p>
+            <img src="assets/images/arrow.svg" alt="">
+          </div>
+          <div class="body">
+            <p>Detalhe os processos e práticas que a Brockway adota para garantir a qualidade em seus serviços e produtos.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="title">
+            <p>Responsabilidade Social e Ambiental</p>
+            <img src="assets/images/arrow.svg" alt="">
+          </div>
+          <div class="body">
+            <p>Se a Brockway estiver envolvida em iniciativas sociais ou ambientais, esta é uma oportunidade para destacar esses esforços e seu impacto positivo na comunidade e no meio ambiente.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="title">
+            <p>Depoimentos ou Cases de Sucesso</p>
+            <img src="assets/images/arrow.svg" alt="">
+          </div>
+          <div class="body">
+            <p>Se houver depoimentos ou estudos de caso relevantes, esta é uma seção ideal para compartilhá-los, mostrando exemplos concretos do trabalho da Brockway e seus resultados.</p>
           </div>
         </div>
       </div>
     </section>
-    <section class="newsletter">
+    <section class="newsletter" id="newsletter">
       <div class="container">
         <h2>Se inscreva para <span>novidade</span></h2>
         <p>Receba acesso exclusivo a ofetas especiais, promoções, atualizações de produtos, novidade e muito mais.</p>
@@ -221,60 +254,57 @@
         </form>
       </div>
     </section>
-    <footer>
+    <footer id="footer">
       <div class="container">
           <nav>
-              <p>Produtos</p>
+              <p>Serviços</p>
               <ul>
-                  <li><a href="">Frango Frito</a></li>
-                  <li><a href="">Bife do Oião</a></li>
-                  <li><a href="">Peru de Calda</a></li>
-                  <li><a href="">Lombo Fresco</a></li>
-                  <li><a href="">Porco Mega Blaster</a></li>
-                  <li><a href="">Maçã de Frango</a></li>
-                  <li><a href="">Banana caramelizada</a></li>
-                  <li><a href="">Goma de mascar</a></li>
-                  <li><a href="">Prato Personalizado</a></li>
+                  <li><a href="">Implantação e Sustentação de Módulos Backoffice e RH</a></li>
+                  <li><a href="">Desenvolvimento ADVPL</a></li>
+                  <li><a href="">Infraestrutura (Gestão e Performance de Ambientes On-Premise e Cloud)</a></li>
+                  <li><a href="">Implantação e Sustentação de Módulos RH (Labore, Vitae, Chronus e SSO)</a></li>
+                  <li><a href="">Infraestrutura (Gestão e Performance de Ambientes On-Premise e Cloud)</a></li>
+                  <li><a href="">Arquitetura e Engenharia de Dados (Requisitos, Modelagem,Desenvolvimento de Pipelines)</a></li>
+                  <li><a href="">Visualização e Análise de Dados com Microsoft Power BI (DAX e Dashboards)</a></li>
+                  <li><a href="">Outros</a></li>
               </ul>
           </nav>
           <nav>
               <p>Sobre</p>
               <ul>
-                  <li><a href="">Nosso Processo</a></li>
+                  <li><a href="">Que somos</a></li>
                   <li><a href="">Como funciona</a></li>
                   <li><a href="">Depoimentos</a></li>
-                  <li><a href="">Carreira</a></li>
-                  <li><a href="">Presentes</a></li>
-                  <li><a href="">Imprensa</a></li>
+                  <li><a href="">Segmentos</a></li>
+                  <li><a href="">Trabalhe com a Brockway</a></li>
+                  <li><a href="">Call-to-Action (CTA)</a></li>
               </ul>
           </nav>
           <nav>
               <p>Comunidade</p>
               <ul>
                   <li><a href="">Blog</a></li>
-                  <li><a href="">DogDev Club</a></li>
                   <li><a href="">Mande para um amigo</a></li>
                   <li><a href="">Embaixadores</a></li>
                   <li><a href="">Torne-se um afiliado</a></li>
+                  <li><a href="">Whatsapp</a></li>
                   <li><a href="">Instagram</a></li>
-                  <li><a href="">Facebook</a></li>
-                  <li><a href="">X (Twitter)</a></li>
+                  <li><a href="">LinkedIn</a></li>
                   <li><a href="">TikTok</a></li>
               </ul>
           </nav>
           <nav>
               <p>Suporte</p>
               <ul>
-                  <li><a href="">contato@dogdev.com.br</a></li>
+                  <li><a href="">contato@brockway.com.br</a></li>
                   <li><a href="">(11) 99999-9999</a></li>
                   <li><a href="">Perguntas Frequentes</a></li>
-                  <li><a href="">Minha conta</a></li>
                   <li><a href="">Política de privacidade</a></li>
                   <li><a href="">Termos de uso</a></li>
               </ul>
           </nav>
       </div>
-      <div class="bar">DogDev - Todos os direitos reservados</div>
+      <div class="bar">&copy; Brockway - Todos os direitos reservados</div>
   </footer>
     <script type="text/javascript" src="assets/js/script.js"></script>
   </body>

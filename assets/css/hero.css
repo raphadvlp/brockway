@@ -1,5 +1,6 @@
 .hero {
-  background-image: url("../images/hero-center.png");
+  /* background-image: url("../images/hero-center.png"); */
+  background-image: url("../images/banner-center.png");
   background-size: auto 40rem;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -31,7 +32,7 @@
 
 @media (width > 900px) {
   .hero {
-    background-image: url("../images/hero.png");
+    background-image: url("../images/banner.png");
     background-size: auto;
   }
 

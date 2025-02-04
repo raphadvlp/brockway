@@ -17,21 +17,19 @@ menuOpener.addEventListener("click", () => {
 // TESTIMONIALS
 let testimonials = [
   {
-    quote:
-      '"Mais do que nunca, os animais de estimação são tratados como membros da família."',
+    quote: '"Texto depoimento"',
     origin: "cbs.svg",
   },
   {
-    quote:
-      '"DogDev é um servilo deentrega direto ao consumidor, preparado na hora com ingredientes 100% reaisl Ingredientes que os himanos reconheceriam."',
+    quote: '"Texto depoimento 2"',
     origin: "forbes.svg",
   },
   {
-    quote: '"DogDev usa ingredientes siomples e limpos em seus pratos."',
+    quote: '"Texto depoimento 3"',
     origin: "fox.svg",
   },
   {
-    quote: '"Vejo você [João] como um verdadeiro herói"',
+    quote: '"Texto depoimento 4',
     origin: "sharktank.svg",
   },
 ];

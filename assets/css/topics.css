@@ -22,7 +22,7 @@
   font-family: "Grandstander", sans-serif;
   font-weight: bold;
   letter-spacing: -0.1rem;
-  font-size: 5rem;
+  font-size: 2rem;
   line-height: 5rem;
 }
 
@@ -49,7 +49,7 @@
   }
 
   .topics li {
-    font-size: 6rem;
+    font-size: 3rem;
     line-height: 6rem;
   }
 
